@@ -1,0 +1,9 @@
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# dependencies 指定你cargo项目所有源码需要的依赖
+# 当使用cargo build或cargo update时，cargo会自动下载依赖
+[dependencies]

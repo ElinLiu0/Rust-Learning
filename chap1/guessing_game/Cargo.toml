@@ -1,0 +1,11 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# 由于我们需要生成随机数，而rust标准库中没有提供这个功能，所以我们需要引入一个外部库
+# 这个库就是rand，通过在Cargo.toml中添加如下内容，就可以引入rand库
+rand = "0.8.5"
